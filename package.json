@@ -1,0 +1,21 @@
+{
+  "name": "ai-image-gen",
+  "version": "1.0.0",
+  "description": "ai image gen",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Omar",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "dotenv-extended": "^2.9.0",
+    "express": "^4.21.1",
+    "openai": "^4.67.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
